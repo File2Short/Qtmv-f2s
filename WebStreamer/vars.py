@@ -11,8 +11,8 @@ class Var(object):
     API_ID = int(environ.get("API_ID","22939818"))
     API_HASH = str(environ.get("API_HASH","ef43fe3762fb69770897433112183da3"))
     BOT_TOKEN = str(environ.get("BOT_TOKEN", "6890961089:AAGPLbj9vQjR52-yXgCAWXeHVX3AsfKvAaI"))
-    SHORTNER_API = str(environ.get("SHORTNER_API", "c662e2e63e691281951cc3455ef436d1d0667a56")) 
-    SHORTENR_URL = str(environ.get("SHORTENR_URL", "krownlinks.com")) 
+    SHORTNER_API = str(environ.get("SHORTNER_API", "02c93c55c4567035a37ffc32731d8f0e1c530f98")) 
+    SHORTENR_URL = str(environ.get("SHORTENR_URL", "tnshort.net")) 
     AUTH_CHANNEL = str(environ.get("AUTH_CHANNEL", "Qtmve_linkZzz")) 
     CUSTOM_FILE_CAPTION = str(environ.get("CUSTOM_FILE_CAPTION","<b><i>{file_name}\n\n⚡️ 𝐅𝐚𝐬𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐋𝐢𝐧𝐤 : \n{short_link}\n\n𝐉𝐨𝐢𝐧 -⋙ @{main_chat} </i></b>")) 
     SLEEP_THRESHOLD = int(environ.get("SLEEP_THRESHOLD", "60"))  # 1 minte
