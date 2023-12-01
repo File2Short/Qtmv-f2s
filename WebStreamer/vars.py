@@ -10,7 +10,7 @@ class Var(object):
     MULTI_CLIENT = False
     API_ID = int(environ.get("API_ID","22939818"))
     API_HASH = str(environ.get("API_HASH","ef43fe3762fb69770897433112183da3"))
-    BOT_TOKEN = str(environ.get("BOT_TOKEN", "6890961089:AAGPLbj9vQjR52-yXgCAWXeHVX3AsfKvAaI"))
+    BOT_TOKEN = str(environ.get("BOT_TOKEN", "6890961089:AAFkn2F5VEihe7MH8I95n5GdhZ1w8D87QPk"))
     SHORTNER_API = str(environ.get("SHORTNER_API", "02c93c55c4567035a37ffc32731d8f0e1c530f98")) 
     SHORTENR_URL = str(environ.get("SHORTENR_URL", "tnshort.net")) 
     AUTH_CHANNEL = str(environ.get("AUTH_CHANNEL", "Qtmve_linkZzz")) 
